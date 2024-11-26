@@ -1,0 +1,133 @@
+
+
+.right-content h3 {
+  font-family: 'Teko', sans-serif;
+}
+.input-container{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+}
+.input-container input::placeholder{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+}
+.input-container input:focus{
+  border: none; 
+  outline: none;
+}
+.input-container input{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  border: none;
+}
+.subheadingInput h3,h4{
+  font-family: 'orbitron', sans-serif;
+}
+
+.footer-content h4{
+  font-family: 'orbitron', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-content{
+    display: none;
+  }
+  .right-content{
+    width: 95%;
+    
+  }
+  .right-content h3:first-child{
+    font-size: 3rem;
+    width: 80%;
+  }
+  .input-container{
+    width: 80%;
+  }
+  .input-container input{
+    width: 50%;
+  }
+  .subheadingInput{
+    width: 80%;
+  }
+  .subheadingInput h4{
+    width: 80%;
+  }
+  .footer-content div:first-child{
+    width: 50%;
+  }
+  .footer-content div:first-child h4{
+    font-size: small;
+  }
+  .footer-content div:first-child img{
+    width: 10rem;
+  }
+  .footer-content div:last-child{
+    width: 80%;
+  }
+  .footer-content div:last-child h4{
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .left-content{
+    display: none;
+  }
+  .right-content{
+    width: 95%;
+    
+  }
+  .right-content h3:first-child{
+    font-size: 3rem;
+    width: 90%;
+  }
+  .input-container{
+    width: 90%;
+  }
+  .input-container input{
+    width: 60%;
+  }
+  .subheadingInput{
+    width: 90%;
+  }
+  .subheadingInput h4{
+    width: 80%;
+  }
+  .footer-content div:first-child{
+    width: 60%;
+  }
+  .footer-content div:first-child h4{
+    font-size: small;
+    text-align: center;
+    border-top: 1px solid white;
+    margin-top: 2px;
+  }
+  .footer-content div:first-child img{
+    width: 15rem;
+  }
+  .footer-content div:last-child{
+    width: 90%;
+  }
+  .footer-content div:last-child h4{
+    font-size: xx-small;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Small phone styles */
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../src/assets/fonts/Teko/static/Teko-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'orbitron';
+    src: url('../src/assets/fonts/Orbitron,Teko/Orbitron/static/Orbitron-Bold.ttf');
+  }
