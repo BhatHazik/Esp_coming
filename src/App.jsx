@@ -27,6 +27,7 @@ function App() {
         <div className="hero bg-[#D9D9D9] w-[100%] pt-7 pb-7 rounded-3xl">
           <div className="hero-top w-[100%] flex justify-center">
             <img src={logo} alt="ESPIRONS" className="w-56" />
+            
           </div>
           <div className="content pt-16 flex pl-10">
             <div className="left-content w-[40%] border-white border-r-[1px] flex justify-center">
